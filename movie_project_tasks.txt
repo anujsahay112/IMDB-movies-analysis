@@ -1,0 +1,27 @@
+Tasks:
+
+1. Remove non-movies (filter Type == "movies")
+2. Process runtimes into minutes
+3. Histogram (distribution) of features (log(features)):
+	- runtime
+	- budget
+	- year
+4. Awards - change them to two columns - wins and nominations
+5. Genres process into features
+6. Plot top 10 genres
+7. Correlations
+	- runtime vs year
+	- Gross vs. Budget
+	- Gross vs. Runtime
+	- Gross vs. wins (awards)
+	- Gross vs. nominations (awards)
+	- tomato rating vs. imdb rating
+	- ratings vs. wins / nominations
+	- budget vs. year
+8. Drop rows with missing Gross value
+9. Exclude movies released prior to 2000
+10. Use any model to predict Gross against only numeric attributes and plot learning curve. Also plot R^2 for each train/test split
+11. Improve previous model by transforming your numeric attributes (scaling, boxcox, etc.). Again plot learning curve and R^2
+12. Convert at least 3 categorical attributes to binary columns and use these 3 categorical variables in the next model. Again plot learning curve and R^2.
+
+
